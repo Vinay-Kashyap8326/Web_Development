@@ -22,23 +22,30 @@ body{
 #main-content{
   color: #FFFFFF;
   height: 500px;
-  width: 480px;
+  width: 400px;
   background-color: #1D5FA8;
   border-radius: 35px;
   padding-top: 30px;
-  padding-bottom: 30p ;
-  padding-left: 85px;
-  padding-right: 85;
-}
-header{
-    font-family: 'Poppins';
+  padding-bottom: 30px ;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: 'Poppins';
+
 }
 #logo{
   font-size: 34px;
-  margin: 0;
+  font-weight: 600;
 }
 #login{
-  margin: 0;
   margin-top: -20px;
   font-size: 52px;
+  font-weight: 700;
+}
+form #Email-input-box{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+}
+form label{
+  font-weight: 0;
 }
