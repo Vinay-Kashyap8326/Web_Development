@@ -29,8 +29,7 @@ body{
   padding-bottom: 30px ;
   padding-left: 80px;
   padding-right: 80px;
-  font-family: 'Poppins';
-
+  font-family: 'Poppins'
 }
 #logo{
   font-size: 34px;
@@ -38,23 +37,39 @@ body{
 }
 #login{
   margin-top: -20px;
-  font-size: 52px;
+  font-size: 55px;
   font-weight: 700;
 }
 form{
   display: flex;
+  flex-direction: column;
 }
 form #Email-input-box{
-  width: 100%;
+  margin-top: -6px;
   height: 35px;
   font-size: 20px;
-  display: block;
-  
+  border-radius: 6px;
+  padding-left: 20px;
+  font-family: 'Poppins';
+}
+#Email-input-box::placeholder{
+  color: #d9d9d9;
+}
+form #Password-input-box{
+  margin-top: -6px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding-left: 20px;
+  font-family: 'Poppins';
+}
+#Password-input-box::placeholder{
+  color: #d9d9d9;
 }
 form label{
   font-weight: 0;
+  font-size: 25px;
 }
 form #Email-text{
-  display: block;
   width: 100%;
 }
