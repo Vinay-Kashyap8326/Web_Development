@@ -105,10 +105,19 @@ form a{
   width: 25px;
 }
 .logo-button{
-  width: 100px;
+  width: 118px;
   height: 35px;
   border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+footer{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  color: #FFFFFF;
 }
