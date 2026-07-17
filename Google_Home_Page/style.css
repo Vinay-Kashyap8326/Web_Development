@@ -1,24 +1,24 @@
 *{
   margin: 0;
   border: 0;
+  padding: 0;
 }
 header{
   display: flex;
   font-size: 30px;
-  
+  justify-content: space-between;
 }
 #part1{
-  width: 150px;
+  width: 300px;
   height: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: red;
 }
 #part2{
   width: 500px;
   height: 50px;
   display: flex;
-  margin-right: 0px;
-  background-color: blue;
+  align-items: center;
+  background-color: green;
 }
