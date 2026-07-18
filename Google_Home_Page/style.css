@@ -3,22 +3,42 @@
   border: 0;
   padding: 0;
 }
+body{
+  background-color: #1B1B1B;
+}
 header{
   display: flex;
-  font-size: 30px;
+  font-size: 22px;
   justify-content: space-between;
 }
 #part1{
-  width: 300px;
-  height: 50px;
+  width: 200px;
+  height: 80px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+#Email-photo{
+  width: 55px;
+  height: 55px;
+  background-image: url('Email_photo.png');
+  background-size: cover;
+  border-radius: 50px;
+}
+header i{
+  font-size: 31px;
+}
 #part2{
-  width: 500px;
-  height: 50px;
+  width: 400px;
+  height: 80px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: green;
+}
+a{
+  text-decoration: none;
+  color: #E8EAED;
+}
+.fa-solid{
+  color: #E8EAED;
 }
